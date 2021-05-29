@@ -4,6 +4,7 @@ body{
 
 *{
     font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
 }
 
 
@@ -24,7 +25,19 @@ img#waterfallImg{
     padding: 5% 0;
     background: url(img/section-2.png);
     background-position: center;
+    position: relative;
 
+}
+
+
+.content-sec::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, #69c5b0, transparent);
 }
 
 
@@ -32,6 +45,7 @@ img#waterfallImg{
     margin-bottom: 24px;
     overflow: hidden;
     color: white;
+    font-weight: 700;
 }
 
 .content-sec p{
