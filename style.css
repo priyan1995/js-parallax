@@ -1,0 +1,15 @@
+*{
+    overflow-x: hidden;
+}
+
+.main-section{
+    height:100vh;
+    position:relative;
+}
+
+img#waterfallImg{
+    width: 100%;
+    bottom: 0;
+    top: auto;
+    position: absolute;
+}
