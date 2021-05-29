@@ -19,6 +19,7 @@ img#waterfallImg{
     bottom: 0;
     top: auto;
     position: absolute;
+    z-index: 2;
 }
 
 .content-sec{
@@ -63,3 +64,39 @@ li{
     margin-bottom: 10px;
     font-size: 18px;
 }
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    display: none;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #03b2cb;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1074b0;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+  .sun{
+    z-index: 1;
+    height: 150px;
+    width: 150px;
+    background: radial-gradient(white, transparent);
+    border-radius: 100%;
+    box-shadow: 0px 0px 141px white;
+    left: 54%;
+    position: absolute;
+    top: 67px;
+    margin-left: -75px;
+  }
