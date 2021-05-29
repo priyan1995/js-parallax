@@ -1,10 +1,16 @@
-*{
+body{
     overflow-x: hidden;
 }
+
+*{
+    font-size: 16px;
+}
+
 
 .main-section{
     height:100vh;
     position:relative;
+    background: linear-gradient(to bottom, #71d5ef, #ffffff 33%);
 }
 
 img#waterfallImg{
@@ -12,4 +18,34 @@ img#waterfallImg{
     bottom: 0;
     top: auto;
     position: absolute;
+}
+
+.content-sec{
+    padding: 5% 0;
+    background: url(img/section-2.png);
+    background-position: center;
+
+}
+
+
+.content-sec h2{
+    margin-bottom: 24px;
+    overflow: hidden;
+    color: white;
+}
+
+.content-sec p{
+    color: white;
+    font-size: 18px;
+}
+
+ul{
+    color: white;
+    padding-left: 20px;
+}
+
+li{
+    list-style: disc;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
