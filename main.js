@@ -16,3 +16,4 @@ window.addEventListener('scroll', function(){
     backMountain.style.top = value * 0.05 + '%';
 
 })
+
