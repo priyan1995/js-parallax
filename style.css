@@ -186,7 +186,8 @@ li{
 }
 
 .content-wrapper .container{
-    z-index:3
+    z-index:3;
+    position:relative;
 }
 
 .bubble{
@@ -312,3 +313,50 @@ li{
     }
 }
 
+
+
+.fish1{
+    position: absolute;
+    left: -5%;
+    top: 5%;
+    z-index: 1;
+    width: 50px;
+    opacity: 0.7;
+    animation:  animateFish1 100s linear infinite;
+}
+
+
+@keyframes animateFish1{
+    0%{
+        left: -5%;
+        top: 5%;
+    }  
+   
+    20%{
+        left: 30%;
+        top: 8%; 
+    }
+
+    
+    30%{
+        left: 30%;
+        transform: rotate(13deg);
+    }
+
+
+    80%{
+        left: 80%;
+        top: 65%;
+        transform: rotate(13deg);
+    }
+
+
+    100%{
+        left: 120%;
+        transform: rotate(0deg);
+    }
+
+
+
+
+}
