@@ -429,3 +429,16 @@ li{
 
 
 }
+
+
+
+.treasure{
+    position: absolute;
+    bottom: 16%;
+    width: 820px;
+    left: 41%;
+    margin-left: -410px;
+    height: 350px;
+    object-fit: contain;
+    margin-bottom: -175px;
+}
