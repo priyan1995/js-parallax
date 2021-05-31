@@ -378,3 +378,54 @@ li{
 
 
 }
+
+
+
+
+
+
+.fish2{
+    position: absolute;
+    right: -20%;
+    bottom: 1%;
+    z-index: 1;
+    width: 115px;
+    filter: opacity(0.9);
+    animation:  animateFish2 40s linear infinite;
+}
+
+
+@keyframes animateFish2{
+    0%{
+        
+    }   
+
+
+    20%{
+        right: 3%;
+        bottom: 10%;
+
+    }
+
+    30%{
+        right: 3%;
+        bottom: 10%;
+
+    }
+    
+    
+
+    50%{       
+        bottom: 5%;
+    }
+
+
+    100%{
+        bottom: 1%;
+        right: 120%;
+    }
+
+
+
+
+}
