@@ -574,3 +574,36 @@ img#backMountain {
         left: 110%;
     }
 }
+
+.plant5{
+    position: absolute;
+    bottom: -64px;
+    width: 130px;
+    left: -26px;
+    z-index: 3;
+    transform: rotate(16deg);
+    opacity: 0.9;
+}
+
+.plant6{
+    position: absolute;
+    bottom: -62px;
+    width: 117px;
+    right: -26px;
+    z-index: 3;
+    transform: rotate(-11deg);
+    opacity: 0.9;
+}
+
+
+
+.plant7{
+    position: absolute;
+    bottom: -62px;
+    width: 14%;
+    right: -58px;
+    z-index: 3;
+    transform: rotate(
+-11deg
+);
+}
