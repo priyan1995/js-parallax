@@ -50,19 +50,19 @@ img#waterfallImg{
 .content-sec h2{
     margin-bottom: 24px;
     overflow: hidden;
-    color: white;
+    color: #ffffffd1;
     font-weight: 700;
 }
 
 .content-sec p{
-    color: white;
+    color: #ffffffd1;
     font-size: 20px;
     line-height: 40px;
     letter-spacing: 1.2px;
 }
 
 ul{
-    color: white;
+    color: #ffffffd1;
     padding-left: 20px;
 }
 
@@ -317,7 +317,7 @@ li{
     }  
    
     100%{
-        bottom:150%;
+        bottom:120%;
         opacity:0;
     }
 }
@@ -386,7 +386,7 @@ li{
     bottom: 1%;
     z-index: 1;
     width: 90px;
-    filter: opacity(0.9);
+    filter: opacity(0.8);
     animation:  animateFish2 40s linear infinite;
 }
 
@@ -441,9 +441,6 @@ li{
 
 
 
-
-
-
 .fish3{
     position: absolute;
     left: -20%;
@@ -456,36 +453,96 @@ li{
 
 
 @keyframes animateFish3{
-    0%{
-        
+    0%{        
     }   
-
-
     20%{
         left: 3%;
         bottom: 20%;
 
     }
-
     30%{
         left: 3%;
         bottom:20%;
 
     }
-    
-    
 
     50%{       
         bottom: 35%;
     }
-
 
     100%{
         bottom: 25%;
         left: 120%;
     }
 
+}
 
 
+
+
+.fish4{
+    position: absolute;
+    left: -20%;
+    bottom: 40%;
+    z-index: 1;
+    width: 40px;
+    filter: opacity(0.5);
+    animation: animateFish4 15s linear infinite;
+    animation-duration: 50s;
+    animation-delay: 18s;
+}
+
+
+@keyframes animateFish4{
+    0%{        
+    }   
+    20%{
+        left: 3%;
+        bottom: 50%;
+
+    }
+    30%{
+        left: 3%;
+        bottom:50%;
+
+    }
+
+    50%{       
+        bottom: 65%;
+    }
+
+    100%{
+        bottom: 75%;
+        left: 120%;
+    }
+
+}
+
+
+/* fish 5 */
+
+
+
+.fish5{
+    position: absolute;
+    left: -20%;
+    top: 10%;
+    z-index: 1;
+    width: 35px;
+    filter: opacity(0.2);
+    animation: animateFish5 15s linear infinite;
+    animation-duration: 40s;
+    animation-delay:20s;
+}
+
+
+@keyframes animateFish5{
+    0%{        
+    }   
+
+    100%{
+        top: 25%;
+        left: 120%;
+    }
 
 }
