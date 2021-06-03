@@ -1,25 +1,24 @@
-body{
+body {
     overflow-x: hidden;
 }
 
-*{
+* {
     font-size: 16px;
     font-family: 'Londrina Solid', cursive;
 }
 
-
-h1,h2,h3,h4,h5{
+h1, h2, h3, h4, h5 {
     font-family: 'Sigmar One', cursive;
 }
 
-.main-section{
-    height:145vh;
-    position:relative;
+.main-section {
+    height: 145vh;
+    position: relative;
     background: linear-gradient(to bottom, #71d5ef, #ffffff 67%);
-    overflow:hidden;
+    overflow: hidden;
 }
 
-img#waterfallImg{
+img#waterfallImg {
     width: 100%;
     bottom: 0;
     top: auto;
@@ -27,16 +26,15 @@ img#waterfallImg{
     z-index: 4;
 }
 
-.content-sec{
+.content-sec {
     padding: 5% 0;
     background: url(img/section-2.png);
     background-position: center;
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
 }
 
-
-.content-sec::before{
+.content-sec::before {
     content: "";
     position: absolute;
     top: 0;
@@ -46,27 +44,26 @@ img#waterfallImg{
     background: linear-gradient(to bottom, #69c5b0, transparent);
 }
 
-
-.content-sec h2{
+.content-sec h2 {
     margin-bottom: 24px;
     overflow: hidden;
     color: #ffffffd1;
     font-weight: 700;
 }
 
-.content-sec p{
+.content-sec p {
     color: #ffffffd1;
     font-size: 20px;
     line-height: 40px;
     letter-spacing: 1.2px;
 }
 
-ul{
+ul {
     color: #ffffffd1;
     padding-left: 20px;
 }
 
-li{
+li {
     list-style: disc;
     margin-bottom: 10px;
     font-size: 20px;
@@ -74,30 +71,32 @@ li{
     letter-spacing: 1.2px;
 }
 
-
 /* width */
+
 ::-webkit-scrollbar {
     width: 10px;
     display: none;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
     background: #03b2cb;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
     background: #1074b0;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
     background: #555;
-  }
+}
 
-
-  .sun{
+.sun {
     z-index: 2;
     height: 220px;
     width: 220px;
@@ -111,95 +110,84 @@ li{
     margin-top: 40px;
     mix-blend-mode: screen;
     border: none;
-  }
+}
 
-  img#backMountain{
+img#backMountain {
     z-index: 3;
     position: absolute;
     margin-top: -40px;
     width: 100%;
-    filter: grayscale(0.7);   
-  }
+    filter: grayscale(0.7);
+}
 
-  .cloud1{
+.cloud1 {
     position: absolute;
     bottom: auto;
     width: 20%;
     animation: cloud1 60s linear infinite;
     left: -30%;
-    margin-top:20px;
-  }
+    margin-top: 20px;
+}
 
-
-  @keyframes cloud1 {
-      0%{
+@keyframes cloud1 {
+    0% {
         left: -30%;
-      }
+    }
+    100% {
+        left: 100%;
+    }
+}
 
-      100%{
-          left:100%;
-      }
-  }
-
-
-  .cloud2{
+.cloud2 {
     position: absolute;
     bottom: auto;
     width: 30%;
     animation: cloud2 60s linear infinite;
     left: -30%;
     animation-delay: 50s;
-    margin-top:60px;
-  }
+    margin-top: 60px;
+}
 
-
-  @keyframes cloud2 {
-    0%{
-      left: -30%;
+@keyframes cloud2 {
+    0% {
+        left: -30%;
     }
-
-    100%{
-        left:100%;
+    100% {
+        left: 100%;
     }
 }
 
-
-
-
-.cloud3{
+.cloud3 {
     position: absolute;
     bottom: auto;
     width: 20%;
     animation: cloud3 60s linear infinite;
     left: -30%;
     animation-delay: 20s;
-    margin-top:75px;
-  }
+    margin-top: 75px;
+}
 
-
-  @keyframes cloud3 {
-    0%{
-      left: -30%;
+@keyframes cloud3 {
+    0% {
+        left: -30%;
     }
-
-    100%{
-        left:100%;
+    100% {
+        left: 100%;
     }
 }
 
-
-.content-wrapper{
+.content-wrapper {
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
     padding-bottom: 22%;
 }
 
-.content-wrapper .container{
-    z-index:3;
-    position:relative;
+.content-wrapper .container {
+    z-index: 3;
+    position: relative;
 }
 
-.bubble{
+.bubble {
     position: absolute;
     bottom: -10%;
     z-index: 1;
@@ -207,228 +195,191 @@ li{
     width: 150px;
 }
 
-.bubble1{
+.bubble1 {
     width: 80px;
-    left: 10%; 
-    animation: animateBubble  linear infinite;
-    animation-delay: 10s; 
-    animation-duration: 10s;   
+    left: 10%;
+    animation: animateBubble linear infinite;
+    animation-delay: 10s;
+    animation-duration: 10s;
 }
 
-.bubble2{
+.bubble2 {
     width: 60px;
-    left: 20%; 
-    animation: animateBubble  linear infinite;
-    animation-delay: 25s;  
-    animation-duration: 5s;   
+    left: 20%;
+    animation: animateBubble linear infinite;
+    animation-delay: 25s;
+    animation-duration: 5s;
 }
 
-.bubble3{
+.bubble3 {
     width: 30px;
-    left: 30%; 
-    animation: animateBubble  linear infinite;
+    left: 30%;
+    animation: animateBubble linear infinite;
     animation-delay: 0s;
-    animation-duration: 3s;     
+    animation-duration: 3s;
 }
 
-.bubble4{
+.bubble4 {
     width: 80px;
-    left: 40%; 
-    animation: animateBubble  linear infinite;
-    animation-delay: 20s; 
-    animation-duration: 8s;    
+    left: 40%;
+    animation: animateBubble linear infinite;
+    animation-delay: 20s;
+    animation-duration: 8s;
 }
 
-.bubble5{
+.bubble5 {
     width: 25px;
-    left: 80%; 
-    animation: animateBubble  linear infinite;
-    animation-delay: 15s;   
-    animation-duration: 7s;  
+    left: 80%;
+    animation: animateBubble linear infinite;
+    animation-delay: 15s;
+    animation-duration: 7s;
 }
 
-.bubble7{
+.bubble7 {
     width: 80px;
-    left: 50%; 
-    animation: animateBubble  linear infinite;
-    animation-delay: 0s;  
-    animation-duration: 15s;   
+    left: 50%;
+    animation: animateBubble linear infinite;
+    animation-delay: 0s;
+    animation-duration: 15s;
 }
 
-.bubble7{
+.bubble7 {
     width: 80px;
-    left: 40%; 
-    animation: animateBubble  linear infinite;
-    animation-delay: 10s; 
-    animation-duration: 12s;    
+    left: 40%;
+    animation: animateBubble linear infinite;
+    animation-delay: 10s;
+    animation-duration: 12s;
 }
 
-.bubble8{
+.bubble8 {
     width: 80px;
-    left: 15%; 
-    animation: animateBubble  linear infinite;
-    animation-delay: 10s; 
-    animation-duration: 6s;   
+    left: 15%;
+    animation: animateBubble linear infinite;
+    animation-delay: 10s;
+    animation-duration: 6s;
 }
 
-.bubble9{
+.bubble9 {
     width: 60px;
-    left: 45%; 
-    animation: animateBubble  linear infinite;
-    animation-delay: 15s;    
-    animation-duration: 14s; 
+    left: 45%;
+    animation: animateBubble linear infinite;
+    animation-delay: 15s;
+    animation-duration: 14s;
 }
 
-.bubble10{
+.bubble10 {
     width: 50px;
-    left: 85%; 
-    animation: animateBubble  linear infinite;
-    animation-delay: 8s; 
-    animation-duration: 10s;    
+    left: 85%;
+    animation: animateBubble linear infinite;
+    animation-delay: 8s;
+    animation-duration: 10s;
 }
 
-.bubble11{
+.bubble11 {
     width: 35px;
-    left: 55%; 
-    animation: animateBubble  linear infinite;
-    animation-delay: 5s;   
-    animation-duration: 8s;  
+    left: 55%;
+    animation: animateBubble linear infinite;
+    animation-delay: 5s;
+    animation-duration: 8s;
 }
 
-.bubble12{
+.bubble12 {
     width: 85px;
-    left: 35%; 
-    animation: animateBubble  linear infinite;
-    animation-delay: 13s;  
-    animation-duration: 6s;   
+    left: 35%;
+    animation: animateBubble linear infinite;
+    animation-delay: 13s;
+    animation-duration: 6s;
 }
 
-.bubble13{
+.bubble13 {
     width: 25px;
-    left: 25%; 
-    animation: animateBubble  linear infinite;
-    animation-delay: 18s; 
-    animation-duration: 5s;    
+    left: 25%;
+    animation: animateBubble linear infinite;
+    animation-delay: 18s;
+    animation-duration: 5s;
 }
 
-@keyframes animateBubble{
-    0%{
-        bottom:-10%
-    }  
-   
-    100%{
-        bottom:120%;
-        opacity:0;
+@keyframes animateBubble {
+    0% {
+        bottom: -10%
+    }
+    100% {
+        bottom: 120%;
+        opacity: 0;
     }
 }
 
-
-
-.fish1{
+.fish1 {
     position: absolute;
     left: -5%;
     top: 5%;
     z-index: 1;
     width: 50px;
     opacity: 0.5;
-    animation:  animateFish1 40s linear infinite;
+    animation: animateFish1 40s linear infinite;
 }
 
-
-@keyframes animateFish1{
-    0%{
+@keyframes animateFish1 {
+    0% {
         left: -5%;
         top: 5%;
-    }  
-   
-    20%{
-        left: 30%;
-        top: 8%; 
     }
-
-    
-    30%{
+    20% {
         left: 30%;
-        top: 8%; 
+        top: 8%;
+    }
+    30% {
+        left: 30%;
+        top: 8%;
         transform: rotate(13deg);
     }
-
-
-    80%{
+    80% {
         left: 80%;
         top: 65%;
         transform: rotate(13deg);
     }
-
-
-    90%{
+    90% {
         left: 80%;
         top: 65%;
-        transform: rotate(0deg); 
+        transform: rotate(0deg);
     }
-
-
-    100%{
+    100% {
         left: 110%;
         top: 55%;
         transform: rotate(-13deg);
     }
-
-
-
-
 }
 
-
-.fish2{
+.fish2 {
     position: absolute;
     right: -20%;
     bottom: 1%;
     z-index: 1;
     width: 90px;
     filter: opacity(0.8);
-    animation:  animateFish2 40s linear infinite;
+    animation: animateFish2 40s linear infinite;
 }
 
-
-@keyframes animateFish2{
-    0%{
-        
-    }   
-
-
-    20%{
+@keyframes animateFish2 {
+    0% {}
+    20% {
         right: 3%;
         bottom: 10%;
-
     }
-
-    30%{
+    30% {
         right: 3%;
         bottom: 10%;
-
     }
-    
-    
-
-    50%{       
+    50% {
         bottom: 5%;
     }
-
-
-    100%{
+    100% {
         bottom: 1%;
         right: 120%;
     }
-
-
-
-
 }
 
-
-
-.treasure{
+.treasure {
     position: absolute;
     bottom: 16%;
     width: 820px;
@@ -439,48 +390,36 @@ li{
     margin-bottom: -175px;
 }
 
-
-
-.fish3{
+.fish3 {
     position: absolute;
     left: -20%;
     bottom: 30%;
     z-index: 1;
     width: 75px;
     filter: opacity(0.9);
-    animation:  animateFish3 60s linear infinite;
+    animation: animateFish3 60s linear infinite;
 }
 
-
-@keyframes animateFish3{
-    0%{        
-    }   
-    20%{
+@keyframes animateFish3 {
+    0% {}
+    20% {
         left: 3%;
         bottom: 20%;
-
     }
-    30%{
+    30% {
         left: 3%;
-        bottom:20%;
-
+        bottom: 20%;
     }
-
-    50%{       
+    50% {
         bottom: 35%;
     }
-
-    100%{
+    100% {
         bottom: 25%;
         left: 120%;
     }
-
 }
 
-
-
-
-.fish4{
+.fish4 {
     position: absolute;
     left: -20%;
     bottom: 40%;
@@ -492,38 +431,28 @@ li{
     animation-delay: 18s;
 }
 
-
-@keyframes animateFish4{
-    0%{        
-    }   
-    20%{
+@keyframes animateFish4 {
+    0% {}
+    20% {
         left: 3%;
         bottom: 50%;
-
     }
-    30%{
+    30% {
         left: 3%;
-        bottom:50%;
-
+        bottom: 50%;
     }
-
-    50%{       
+    50% {
         bottom: 65%;
     }
-
-    100%{
+    100% {
         bottom: 75%;
         left: 120%;
     }
-
 }
-
 
 /* fish 5 */
 
-
-
-.fish5{
+.fish5 {
     position: absolute;
     left: -20%;
     top: 10%;
@@ -532,17 +461,64 @@ li{
     filter: opacity(0.2);
     animation: animateFish5 15s linear infinite;
     animation-duration: 40s;
-    animation-delay:20s;
+    animation-delay: 20s;
 }
 
-
-@keyframes animateFish5{
-    0%{        
-    }   
-
-    100%{
+@keyframes animateFish5 {
+    0% {}
+    100% {
         top: 25%;
         left: 120%;
     }
+}
 
+.plant {
+    margin-left: -50px;
+    position: absolute;
+    bottom: 14%;
+    left: 57%;
+    width: 100px;
+    opacity: 0.8;
+}
+
+.plant2 {
+    margin-left: -50px;
+    position: absolute;
+    bottom: 13%;
+    left: 64%;
+    width: 90px;
+    opacity: 0.8;
+}
+
+.plant3 {
+    margin-left: -50px;
+    position: absolute;
+    bottom: 11%;
+    left: 18%;
+    width: 90px;
+    opacity: 0.7;
+}
+
+.plant4 {
+    margin-left: -50px;
+    position: absolute;
+    bottom: 13%;
+    left: 21%;
+    width: 90px;
+    opacity: 0.6;
+}
+
+@media(min-width:1400px) {
+    .plant {
+        left: 52%;
+    }
+    .plant2 {
+        left: 57%;
+    }
+    .plant3 {
+        left: 24%;
+    }
+    .plant4 {
+        left: 27%;
+    }
 }
