@@ -533,26 +533,26 @@ img#backMountain {
     left: -5%;
     animation: birdfly1 15s linear infinite;
     animation-duration: 50s;
-    animation-delay:20s;
+   
 }
 
 .bird1{
     margin-top: 28%;
     animation-duration: 50s;
-    animation-delay:20s;
+    animation-delay:10s;
 }
 
 .bird2{
     margin-top: 17%;
     animation-duration: 50s;
-    animation-delay: 10s;
+    animation-delay: 0s;
     width: 5px;
 }
 
 .bird3 {
     margin-top: 23%;
     animation-duration: 50s;
-    animation-delay: 35s;
+    animation-delay: 15s;
     width: 5px;
 }
 
@@ -560,7 +560,7 @@ img#backMountain {
 .bird4 {
     width: 12px;
     margin-top: 33%;
-    animation-delay: 25s;
+    animation-delay:20s;
     animation-duration: 20s;
     
 }
