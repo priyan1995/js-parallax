@@ -354,7 +354,7 @@ img#backMountain {
     position: absolute;
     right: -20%;
     bottom: 1%;
-    z-index: 1;
+    z-index: 2;
     width: 90px;
     filter: opacity(0.8);
     animation: animateFish2 40s linear infinite;
@@ -681,7 +681,7 @@ img#backMountain {
     bottom: -62px;
     width: 10%;
     right: 4%;
-    z-index: 3;
+    z-index: 4;
     transform: rotate( 322deg );
 }
 
@@ -690,7 +690,7 @@ img#backMountain {
     bottom: -97px;
     width: 10%;
     right: 7%;
-    z-index: 1;
+    z-index: 3;
 }
 
 .plant10{
@@ -730,4 +730,41 @@ img#backMountain {
     bottom: -66px;
     width: 32%;
     right: 51%;
+    z-index: 1;
+}
+
+.stone2{
+    position: absolute;
+    bottom: -8%;
+    width: 37%;
+    left: -79px;
+    z-index: 3;
+}
+
+.plant14 {
+    position: absolute;
+    bottom: -62px;
+    width: 9%;
+    right: 44%;
+    z-index: 0;
+    transform: rotate( 357deg );
+    filter: opacity(0.8);
+}
+
+.plant15 {
+    position: absolute;
+    bottom: -97px;
+    width: 7%;
+    right: 35%;
+    z-index: 0;
+    filter: opacity(0.8);
+}
+
+.plant16 {
+    position: absolute;
+    bottom: -45px;
+    width: 16%;
+    right: 31%;
+    z-index: 0;
+    filter: opacity(0.7);
 }
