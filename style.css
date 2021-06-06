@@ -727,8 +727,7 @@ img#backMountain {
 
 .stone1{
     position: absolute;
-    bottom: -45px;
-    width: 16%;
-    right: 41%;
-    z-index: 1;
+    bottom: -66px;
+    width: 32%;
+    right: 51%;
 }
