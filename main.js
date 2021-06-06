@@ -28,3 +28,8 @@ window.addEventListener('scroll', function(){
 
 })
 
+window.onload = function(){
+    document.querySelector(".pre-loader").style.display="none";
+    document.querySelector(".main-section").style.display="block";
+    document.querySelector(".content-sec").style.display="block";
+}
