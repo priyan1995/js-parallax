@@ -674,3 +674,13 @@ img#backMountain {
         background: #000000a3;
     }
 }
+
+
+.plant8{
+    position: absolute;
+    bottom: -62px;
+    width: 10%;
+    right: 4%;
+    z-index: 3;
+    transform: rotate( 322deg );
+}
