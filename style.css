@@ -684,3 +684,19 @@ img#backMountain {
     z-index: 3;
     transform: rotate( 322deg );
 }
+
+.plant9{
+    position: absolute;
+    bottom: -97px;
+    width: 10%;
+    right: 7%;
+    z-index: 1;
+}
+
+.plant10{
+    position: absolute;
+    bottom: -97px;
+    width: 12%;
+    right: -7%;
+    z-index: 1;
+}
