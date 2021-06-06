@@ -700,3 +700,35 @@ img#backMountain {
     right: -7%;
     z-index: 1;
 }
+
+.plant11{
+    position: absolute;
+    bottom: -90px;
+    width: 21%;
+    right: 13%;
+    z-index: 2;
+}
+
+.plant12{
+    position: absolute;
+    bottom: -44px;
+    width: 12%;
+    right: 31%;
+    z-index: 1;
+}
+
+.plant13{
+    position: absolute;
+    bottom: -45px;
+    width: 16%;
+    right: 41%;
+    z-index: 1;
+}
+
+.stone1{
+    position: absolute;
+    bottom: -45px;
+    width: 16%;
+    right: 41%;
+    z-index: 1;
+}
